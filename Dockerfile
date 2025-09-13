@@ -1,4 +1,4 @@
-FROM ruby:slim
+FROM ruby:3.1-slim
 
 RUN apt-get update -qq &&\
   curl -sL https://deb.nodesource.com/setup_22.x | bash - &&\
